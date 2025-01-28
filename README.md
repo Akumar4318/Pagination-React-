@@ -1,5 +1,5 @@
-go and check out:-- https://akumar4318.github.io/Pagination-React-/
 
+🔗  https://akumar4318.github.io/Pagination-React-/ 🔗
 
 
 # 📄Pagination in Web Development
