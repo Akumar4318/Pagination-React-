@@ -6,15 +6,19 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;
- 
-
+}
+.heading {
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ background:#ffd;
+ font-size: larger;
+}
 .products__single {
   height: 200px;
   width: 200px;
-
   border: 2px solid aquamarine;
   background-color: bisque;
-
   margin: 10px;
   border-radius: 20px;
   cursor: pointer;
@@ -29,32 +33,23 @@
   margin-bottom: 2px;
 }
 
-.pagination{
+.pagination {
   padding: 10px;
   margin: 15px;
-  display:flex;
+  display: flex;
   justify-content: center;
-
 }
 
-.pagination >span{
+.pagination > span {
   padding: 15px 20px;
   border: 2px solid red;
   cursor: pointer;
 }
 
-.pagination__selected{
+.pagination__selected {
   background-color: rgb(211, 144, 144);
 }
 
-.pagination__disable{
+.pagination__disable {
   opacity: 0;
-}
-
-.heading{
-display: flex;
-justify-content: center;
-width: 100%;
-  background-color: beige ;
- 
 }
